@@ -1,0 +1,13 @@
+<%- include('sivupohjat/head') %>
+
+    <h1>Artikkelit</h1>
+
+    <ul>
+        <% articles.forEach((article)=> { %>
+            <li>
+                <%= article.title %>
+            </li>
+            <% }); %>
+    </ul>
+
+<%- include('sivupohjat/foot') %>
